@@ -148,17 +148,22 @@ footer p {
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
+    gap: 20px;
     background-color: #fff;
+  }
+  .about .image{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
   }
   .about img{
     width: 100%;
     max-width: 500px;
     height: fit-content;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
   }
-  .about div{
+  .about .form{
     width: 100%;
     max-width: 400px;
     background: #fff;
@@ -218,12 +223,13 @@ input[type="submit"]:hover {
 @media (min-width: 768px) {
   main.about {
       flex-direction: row;
-      gap: 50px;
+      gap: 20px;
       padding: 40px;
   }
 
   main.about img {
       margin-bottom: 0;
   }
+
 }
 
